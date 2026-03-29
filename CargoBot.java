@@ -15,7 +15,6 @@ public class CargoBot {
         while (true) {
             try {
                 String ITEM = CARGO_LIST[INDEX];
-
                 TOTAL_ITEMS_PROCESSED++;
 
                 char FIRST = Character.toLowerCase(ITEM.charAt(0));
